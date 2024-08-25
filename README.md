@@ -34,6 +34,7 @@ docker-compose up -d
 ## Project setup
 
 ```bash
+$ cp .env.sample .env
 $ npm install
 ```
 
