@@ -38,7 +38,7 @@ class ConfigService {
       database: this.getValue('POSTGRES_DATABASE'),
       entities: [Task],
       migrationsTableName: 'migration',
-      migrations: ['src/migration/*.ts'],
+      migrations: ['../migration/*.ts'],
       ssl: this.getValue('SSL') as unknown as boolean || false,
       migrationsRun: this.getValue('RUN_MIGRATIONS') as unknown as boolean || false
     };
